@@ -1,0 +1,54 @@
+# WordPress-specific ignores
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/*.log
+wp-content/debug.log
+wp-content/backup-db/
+wp-content/backups/
+
+# PHP and Composer ignores
+vendor/
+composer.lock
+*.php.bak
+*.php.swp
+
+# Node.js and JavaScript ignores (if you use npm/yarn for dev tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment and configuration files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Temporary and editor files
+*.log
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing and build artifacts
+coverage/
+tests/_output/
+tests/_support/_generated/
+.phpunit.result.cache
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.sql
+*.sql.gz
